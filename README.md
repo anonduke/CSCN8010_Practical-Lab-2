@@ -3,12 +3,21 @@
 ## Project Overview
 This project is **Lab 2** for a machine learning course, focusing on predicting diabetes progression one year after baseline using the Scikit-Learn Diabetes dataset. The objective is to develop a screening tool to assist physicians in identifying patients at risk of diabetes progression. The analysis involves building and comparing multiple machine learning models, evaluating their performance, and providing insights into their strengths and limitations.
 
-The project is implemented in a Jupyter Notebook (`lab2.ipynb`) and follows a structured approach with three main parts:
+The project is implemented in a Jupyter Notebook (`lab2_8991782.ipynb`) and follows a structured approach with three main parts:
 1. **Part 1**: Data acquisition, problem framing, exploratory data analysis (EDA), data cleaning, and dataset splitting.
 2. **Part 2**: Univariate polynomial regression models (degrees 0–5) using the BMI feature.
 3. **Part 3**: Multivariate models, including polynomial regression (degrees 2 and 3), decision trees (max_depth 3 and 5), and k-Nearest Neighbors (k=5 and k=10).
 
 Models are evaluated using R-squared, Mean Absolute Error (MAE), and Mean Absolute Percentage Error (MAPE) metrics, with a train-validation-test split (75%-10%-15%). The notebook emphasizes readability, clarity, and comprehensive documentation.
+
+## Replicability
+This has been tested for replicability using a virtual machine (VM) environment to ensure consistent results across different systems. The setup was validated on a VM running a clean installation of Ubuntu 20.04 with Python 3.8+. All dependencies listed in `requirements.txt` were installed successfully, and the notebook (`lab2_8991782.ipynb`) executed without errors. The following steps were performed to confirm replicability:
+1. Set up a VM with a compatible OS (e.g., Ubuntu 20.04).
+2. Installed Python and `pip`.
+3. Created a virtual environment and installed dependencies via `pip install -r requirements.txt`.
+4. Launched Jupyter Notebook and ran `lab2_8991782.ipynb` cell by cell, verifying that all outputs (EDA plots, model results, predictions) were generated correctly.
+
+The `requirements.txt` file includes all necessary libraries (`numpy`, `pandas`, `matplotlib`, `seaborn`, `scikit-learn`, `jupyter`), ensuring that the project is fully reproducible in a fresh environment.
 
 ## Dataset
 The project uses the **Scikit-Learn Diabetes dataset**, a toy dataset available in Scikit-Learn. Key details:
@@ -46,7 +55,7 @@ y = diabetes.target
   - Test: 15% (66 samples)
 
 ## Methodology
-The project follows a standard machine learning workflow, implemented in `lab2.ipynb`:
+The project follows a standard machine learning workflow, implemented in `lab2_8991782.ipynb`:
 
 ### Part 1: Data Acquisition and Exploration
 1. **Data Loading**: Load the dataset as a DataFrame with standardized features.
