@@ -1,7 +1,7 @@
 # Machine Learning Analysis of Diabetes Progression
 
 ## Project Overview
-This project is **Lab 2** for a machine learning course, focusing on predicting diabetes progression one year after baseline using the Scikit-Learn Diabetes dataset. The objective is to develop a screening tool to assist physicians in identifying patients at risk of diabetes progression. The analysis involves building and comparing multiple machine learning models, evaluating their performance, and providing insights into their strengths and limitations.
+This project is **Lab 2** for a Foundations of Machine Learning Frameworks course, focusing on predicting diabetes progression one year after baseline using the Scikit-Learn Diabetes dataset. The objective is to develop a screening tool to assist physicians in identifying patients at risk of diabetes progression. The analysis involves building and comparing multiple machine learning models, evaluating their performance, and providing insights into their strengths and limitations.
 
 The project is implemented in a Jupyter Notebook (`lab2_8991782.ipynb`) and follows a structured approach with three main parts:
 1. **Part 1**: Data acquisition, problem framing, exploratory data analysis (EDA), data cleaning, and dataset splitting.
